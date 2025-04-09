@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Taj Mahal Virtual Tour</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto&display=swap" rel="stylesheet">
+
+  <!-- AOS Animation Library -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet"/>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Taj Mahal Virtual Tour</h1>
+    <p>Explore the beauty of India's most iconic monument</p>
+  </header>
+
+  <nav>
+    <a href="#tour">Tour</a>
+    <a href="#about">About</a>
+    <a href="#credits">Credits</a>
+  </nav>
+
+  <div class="container">
+    <section id="tour" data-aos="fade-up">
+      <iframe src="https://www.airpano.com/embed.php?3D=taj-mahal-india" allowfullscreen></iframe>
+      <div class="credit" id="credits">
+        Courtesy of <a href="https://www.airpano.com/" target="_blank">www.AirPano.ru</a>
+      </div>
+    </section>
+
+    <section class="description" id="about" data-aos="fade-up">
+      <h2>About the Taj Mahal</h2>
+      <p>
+        The Taj Mahal, nestled on the banks of the Yamuna River in Agra, India, is a white marble mausoleum 
+        commissioned by the Mughal emperor Shah Jahan in 1632. It was built in loving memory of his wife Mumtaz Mahal. 
+        This architectural masterpiece combines Persian, Islamic, and Indian styles and stands as a symbol of eternal love. 
+        Recognized as a UNESCO World Heritage Site, the Taj Mahal is celebrated for its symmetry, exquisite domes, and intricate carvings. 
+        It is one of the New Seven Wonders of the World and attracts millions of visitors each year.
+      </p>
+    </section>
+  </div>
+
+  <footer>
+    © 2025 Virtual Taj Tours | Designed with ❤️ for history lovers.
+  </footer>
+
+  <!-- AOS Animation Script -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
